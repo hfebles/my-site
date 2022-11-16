@@ -39,24 +39,59 @@
     <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="96x96" href="assets/images/favicon/favicon-96x96.png">
     <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon/favicon-16x16.png">
-    <link rel="manifest" href="/manifest.json">
+    <link rel="manifest" href="assets/images/favicon/manifest.json">
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
 
     <title>hFebles | Site</title>
-    <!--
-Reflux Template
-https://templatemo.com/tm-531-reflux
--->
-    <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
 
-    <!-- Additional CSS Files -->
-    <link rel="stylesheet" href="assets/css/fontawesome.css" />
-    <link rel="stylesheet" href="assets/css/templatemo-style.css" />
-    <link rel="stylesheet" href="assets/css/owl.css" />
-    <link rel="stylesheet" href="assets/css/lightbox.css" />
+
+    <link rel="preload" href="assets/css/fontawesome.css" as="style" onload="this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="assets/css/fontawesome.css"></noscript>
+
+    <link rel="preload" href="assets/css/templatemo-style.css" as="style" onload="this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="assets/css/templatemo-style.css"></noscript>
+
+    <link rel="preload" href="assets/css/owl.css" as="style" onload="this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="assets/css/owl.css"></noscript>
+
+    <link rel="preload" href="assets/css/lightbox.css" as="style" onload="this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="assets/css/lightbox.css"></noscript>
+
+    <link rel="preload" href="assets/css/lightbox.css" as="style" onload="this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="assets/css/lightbox.css"></noscript>
+
+    <link rel="preload" href="vendor/bootstrap/css/bootstrap.min.css" as="style" onload="this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css"></noscript>
+
+    <link rel="preload" as="image" href="assets/images/author-image.jpeg">
+    <link rel="preload" as="image" href="assets/images/web-design.jpg">
+    <link rel="preload" as="image" href="assets/images/interface.png">
+
+    <script  type="application/ld+json">
+        {
+            "@context": "http://schema.org",
+            "@type": "WebSite",
+            "name": "hFebles - ¿Deseas un sitio web para tu marca?, ven te ayudo a iniciar",
+            "url": "https://www.hfebles.com",
+    
+            "publisher": {
+                "@type": "Organization",
+                "name": "hFebles",
+                "logo": {
+                    "@type": "ImageObject",
+                    "url" : "https://www.hfebles.com/assets/images/author-image.jpeg",
+                    "width" : "150",
+                    "height" : "267"            }
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Jesus Hernandez"
+            }
+        }
+    </script>  
+   
 </head>
 
 <body>
@@ -466,13 +501,13 @@ https://templatemo.com/tm-531-reflux
 
     <!-- Scripts -->
     <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script async  src="vendor/jquery/jquery.min.js"></script>
+    <script async  src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
-    <script src="assets/js/isotope.min.js"></script>
-    <script src="assets/js/owl-carousel.js"></script>
-    <script src="assets/js/lightbox.js"></script>
-    <script src="assets/js/custom.js"></script>
+    <script async  src="assets/js/isotope.min.js"></script>
+    <script async  src="assets/js/owl-carousel.js"></script>
+    <script async  src="assets/js/lightbox.js"></script>
+    <script async  src="assets/js/custom.js"></script>
     <script>
         //according to loftblog tut
         $(".main-menu li:first").addClass("active");

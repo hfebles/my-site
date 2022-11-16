@@ -136,8 +136,8 @@ html {
 }
 
 .menu .image img {
-    width: auto;
-    height: 267px;
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
     background-size: au;
     background-position: center;

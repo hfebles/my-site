@@ -291,14 +291,31 @@ html {
     right: 10%;
     left: 35%;
     position: relative;
-    min-height: 100vh;
+    /* min-height: 100vh; */
     padding-bottom: 80px;
     border-bottom: 3px solid rgba(250, 250, 250, 0.25);
+}
+
+.sections-publi {
+    color: #fff;
+    width: 55%;
+    right: 10%;
+    left: 35%;
+    position: relative;
+
 }
 
 .section-heading {
     text-align: center;
     padding: 80px 45px;
+}
+
+.section-publis {
+    text-align: center;
+    padding: 80px 45px;
+    color:#ffffff;
+    height: 90px;
+    width: 728px;
 }
 
 .section-heading h2 {
